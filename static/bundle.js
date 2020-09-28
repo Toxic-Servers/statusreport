@@ -33315,29 +33315,29 @@ var Commits = function (_React$Component) {
         );
       });
       return _react2.default.createElement(
-        'div',
-        { className: 'last-updates d-flex w-100 flex-column justify-content-start align-items-center' },
-        _react2.default.createElement(
-          'div',
-          { className: 'last-updates-inner w-100' },
-          _react2.default.createElement(
-            'div',
-            { className: 'commit-container d-flex' },
-            _react2.default.createElement(
-              'div',
-              { className: 'last-commit-title d-flex w-100 justify-content-center align-items-center flex-column' },
-              _react2.default.createElement(
-                'div',
-                null,
-                _react2.default.createElement(
-                  'a',
-                  { href: 'https://github.com/' + this.props.repo + '/commits/master' },
-                  _react2.default.createElement(
-                    'h2',
-                    null,
-                    'Latest',
-                    _react2.default.createElement('br', null),
-                    'commit'
+      //  'div',
+       // { className: 'last-updates d-flex w-100 flex-column justify-content-start align-items-center' },
+       // _react2.default.createElement(
+        //  'div',
+        //  { className: 'last-updates-inner w-100' },
+         // _react2.default.createElement(
+         //   'div',
+          //  { className: 'commit-container d-flex' },
+          //  _react2.default.createElement(
+            //  'div',
+           //   { className: 'last-commit-title d-flex w-100 justify-content-center align-items-center flex-column' },
+            //  _react2.default.createElement(
+            //    'div',
+             //   null,
+              //  _react2.default.createElement(
+                //  'a',
+                //  { href: 'https://github.com/' + this.props.repo + '/commits/master' },
+                 // _react2.default.createElement(
+                //    'h2',
+                 //   null,
+                 //   'Latest',
+                  //  _react2.default.createElement('br', null),
+                  //  'commit'
                   )
                 )
               )
