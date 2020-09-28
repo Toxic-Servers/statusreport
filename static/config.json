@@ -47,7 +47,7 @@
   },
   "statusMessages": {
     "operational": "All systems operational",
-    "degraded": "Degraded perfomance",
+    "degraded": "Some sites with issues",
     "outage": "Major outage"
   },
   "footer": "Hosted with ❤️ by GitHub."
