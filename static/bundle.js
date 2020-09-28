@@ -33315,45 +33315,45 @@ var Commits = function (_React$Component) {
         );
       });
       return _react2.default.createElement(
-      //  'div',
-       // { className: 'last-updates d-flex w-100 flex-column justify-content-start align-items-center' },
-       // _react2.default.createElement(
-        //  'div',
-        //  { className: 'last-updates-inner w-100' },
-         // _react2.default.createElement(
-         //   'div',
-          //  { className: 'commit-container d-flex' },
-          //  _react2.default.createElement(
-            //  'div',
-           //   { className: 'last-commit-title d-flex w-100 justify-content-center align-items-center flex-column' },
-            //  _react2.default.createElement(
-            //    'div',
-             //   null,
-              //  _react2.default.createElement(
-                //  'a',
-                //  { href: 'https://github.com/' + this.props.repo + '/commits/master' },
-                 // _react2.default.createElement(
-                //    'h2',
-                 //   null,
-                 //   'Latest',
-                  //  _react2.default.createElement('br', null),
-                  //  'commit'
-                 // )
-            //    )
-           //   )
-           // ),
-           // _react2.default.createElement(
-           //   'div',
-           //   { className: 'commits-list w-100 d-flex flex-column justify-content-center align-items-start' },
-            //  commits.length > 0 && commits[0] || _react2.default.createElement('i', { className: 'fa fa-cog fa-spin fa-3x fa-inverse' })
-           // )
-         // )
-      //  )
-    //  );
- //   }
-//  }]);
+        'div',
+        { className: 'last-updates d-flex w-100 flex-column justify-content-start align-items-center' },
+        _react2.default.createElement(
+          'div',
+          { className: 'last-updates-inner w-100' },
+          _react2.default.createElement(
+            'div',
+            { className: 'commit-container d-flex' },
+            _react2.default.createElement(
+              'div',
+              { className: 'last-commit-title d-flex w-100 justify-content-center align-items-center flex-column' },
+              _react2.default.createElement(
+                'div',
+                null,
+                _react2.default.createElement(
+                  'a',
+                  { href: 'https://github.com/' + this.props.repo + '/commits/master' },
+                  _react2.default.createElement(
+                    'h2',
+                    null,
+                    'Latest',
+                    _react2.default.createElement('br', null),
+                    'commit'
+                  )
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'commits-list w-100 d-flex flex-column justify-content-center align-items-start' },
+              commits.length > 0 && commits[0] || _react2.default.createElement('i', { className: 'fa fa-cog fa-spin fa-3x fa-inverse' })
+            )
+          )
+        )
+      );
+    }
+  }]);
 
- // return Commits;
+  return Commits;
 }(_react2.default.Component);
 
 exports.default = Commits;
