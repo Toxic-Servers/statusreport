@@ -33338,7 +33338,7 @@ var Commits = function (_React$Component) {
                  //   'Latest',
                   //  _react2.default.createElement('br', null),
                   //  'commit'
-                  )
+                 // )
             //    )
            //   )
            // ),
