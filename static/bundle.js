@@ -33339,21 +33339,21 @@ var Commits = function (_React$Component) {
                   //  _react2.default.createElement('br', null),
                   //  'commit'
                   )
-                )
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { className: 'commits-list w-100 d-flex flex-column justify-content-center align-items-start' },
-              commits.length > 0 && commits[0] || _react2.default.createElement('i', { className: 'fa fa-cog fa-spin fa-3x fa-inverse' })
-            )
-          )
-        )
-      );
-    }
-  }]);
+            //    )
+           //   )
+           // ),
+           // _react2.default.createElement(
+           //   'div',
+           //   { className: 'commits-list w-100 d-flex flex-column justify-content-center align-items-start' },
+            //  commits.length > 0 && commits[0] || _react2.default.createElement('i', { className: 'fa fa-cog fa-spin fa-3x fa-inverse' })
+           // )
+         // )
+      //  )
+    //  );
+ //   }
+//  }]);
 
-  return Commits;
+ // return Commits;
 }(_react2.default.Component);
 
 exports.default = Commits;
