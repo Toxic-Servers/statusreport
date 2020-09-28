@@ -63,16 +63,7 @@ class Commits extends React.Component {
       )
     })
     return (
-      <div className="last-updates d-flex w-100 flex-column justify-content-start align-items-center">
-        <div className="last-updates-inner w-100">
-          <div className="commit-container d-flex">
-            <div className="last-commit-title d-flex w-100 justify-content-center align-items-center flex-column">
-              <div>
-                <a href={`https://github.com/${this.props.repo}/commits/master`}>
-                  <h2>Latest<br />commit</h2>
-                </a>
-              </div>
-            </div>
+      
             <div className="commits-list w-100 d-flex flex-column justify-content-center align-items-start">
               {commits.length > 0 && commits[0] || <i className="fa fa-cog fa-spin fa-3x fa-inverse"></i>}
             </div>
