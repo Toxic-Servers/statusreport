@@ -180,7 +180,7 @@ class Issues extends React.Component {
               </div>
               <div className="issue-message"><ReactMarkdown source={issue.body} /></div>
               {labelsServices && labelsServices.length > 0 &&
-                <div className="issue-affected">Affected systems: {labelsServices.join(', ')}</div>
+                <div className="issue-affected">Website: {labelsServices.join(', ')}</div>
               }
             </div>
           </div>
